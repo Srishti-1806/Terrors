@@ -181,6 +181,7 @@ cd ai-career-companion
 
 # Install Python dependencies
 echo "Installing Python dependencies..."
+Please install ffmpeg on your machine in C drive and paste all three files in bin folder to the code space in case docker not installed
 pip install -r requirements.txt
 
 # Create necessary directories
