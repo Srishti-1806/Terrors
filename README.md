@@ -18,7 +18,7 @@ python main.py
 ## (terminal 3)
 docker exec -it ffmpeg sh
 docker-compose up --build
-
+##
 🧠 AI-Powered Career Companion
 A powerful, all-in-one career and personal development platform that blends advanced AI, ML, and community interaction. This project is designed to help users enhance their soft skills, optimize resumes, access job listings, and connect with like-minded individuals — all with privacy and performance in mind.
 
