@@ -1,21 +1,21 @@
-RUNNING COMMANDS
+# RUNNING COMMANDS
 
-(terminal 1)
+## (terminal 1)
 npm i
 npm run dev  
 
-(terminal 2)
+## (terminal 2)
 pip install -r requirements.txt
 
-# Create necessary directories
 mkdir -p static/reports
 mkdir -p static/summaries  
 mkdir -p static/transcripts
 mkdir -p temp
 
-# Start the FastAPI server
 echo "Starting FastAPI server on port 8000..."
 python main.py
+
+## (terminal 3)
 docker exec -it ffmpeg sh
 docker-compose up --build
 
