@@ -20,7 +20,7 @@ PyMuPDF
 selenium==4.15.0
 beautifulsoup4==4.12.2
 webdriver-manager==4.0.1
-
+langchain==0.1.20
 # AI/ML Libraries
 openai-whisper==20231117
 mediapipe==0.10.7
